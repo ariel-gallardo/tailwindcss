@@ -1,0 +1,25 @@
+{
+    "editor.quickSuggestions": {
+    "strings": "on"
+    },
+    "files.associations": {
+    "*.css": "tailwindcss"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "files.exclude": {
+        "**/.vscode":true,
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.root": "/build"
+}

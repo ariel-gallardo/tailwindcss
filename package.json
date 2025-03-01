@@ -1,0 +1,19 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Aprendo a utilizar Tailwind CSS junto con iconos en una aplicación web.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "@tailwindcss/cli": "^4.0.9"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.0.9"
+  }
+}
